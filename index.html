@@ -193,7 +193,7 @@
       
       <div class="social-links">
         <a href="https://instagram.com/username" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://twitter.com/username" target="_blank"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://x.com/wint4re" target="_blank"><i class="fab fa-x-twitter"></i></a>
         <a href="https://tiktok.com/@username" target="_blank"><i class="fab fa-tiktok"></i></a>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
       </div>
@@ -222,5 +222,14 @@
     <a href="https://tiktok.com/@username" target="_blank"><i class="fab fa-tiktok"></i></a>
   </div>
 </footer>
+
+<script>
+  // Script untuk form kontak
+  document.querySelector(".contact-form").addEventListener("submit", function(e) {
+    e.preventDefault(); // biar nggak reload halaman
+    alert("Pesan berhasil dikirim! Terima kasih sudah menghubungi 😊");
+    this.reset(); // kosongkan form setelah dikirim
+  });
+</script>
 </body>
 </html>
