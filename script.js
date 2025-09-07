@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const navLinks = document.querySelectorAll("nav ul li a");
 
   function setActiveLink() {
-    const pos = window.scrollY + 160; // tambah offset biar pas sama navbar
+    const pos = window.scrollY + 160; 
     let currentId = null;
 
     sections.forEach(sec => {
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     navLinks.forEach(link => {
-      const href = link.getAttribute("href"); // contoh: "#home"
+      const href = link.getAttribute("href"); 
       const match = href && currentId && href === `#${currentId}`;
       link.classList.toggle("active", Boolean(match));
     });
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (form) {
     form.addEventListener("submit", e => {
       e.preventDefault();
-      alert("Pesan berhasil dikirim! Terima kasih sudah menghubungi 😊");
+      alert("Thanks for reaching out! I’ll get in touch with you soon");
       form.reset();
     });
   }

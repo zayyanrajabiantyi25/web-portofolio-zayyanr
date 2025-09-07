@@ -95,7 +95,7 @@ ul li a:hover {
 
 .subtitle {
   letter-spacing: 2px;
-  color: #ff0000;
+  color: #c53d3d;
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
@@ -113,7 +113,7 @@ ul li a:hover {
 
 .description {
   line-height: 1.5rem;
-  color: #000000;
+  color: #666;
   margin-bottom: 2rem;
 }
 
@@ -127,7 +127,7 @@ ul li a:hover {
   font-weight: 600;
   letter-spacing: 2px;
   padding: 1rem 2rem;
-  border: 2px solid #ff3838;
+  border: 2px solid #ed7f7f;
   border-radius: 10px;
   outline: none;
   cursor: pointer;
@@ -140,16 +140,16 @@ ul li a:hover {
 }
 
 .hire__me:hover {
-  background: #E46E6E;
-  color: #fff;              /* teks jadi putih biar kelihatan */
+  background: #c53d3d;
+  color: #fff;              
   transform: translateY(-3px);
 }
 
-.portfolio {
+.download_cv {
   color: #E46E6E;
 }
 
-.portfolio:hover {
+.download_cv.download_cv {
   background: #E46e6e;
   color: #fff;
   transform: translateY(-3px);
@@ -221,7 +221,7 @@ ul li a:hover {
 .about-content p {
   margin-top: 0.5 rem;
   line-height: 1.6;
-  color: #000000
+  color: #666
 }
 .about h2 {
   font-size: 2rem;
@@ -263,16 +263,16 @@ ul li a:hover {
   list-style: none;
   padding: 0.6rem 1.2rem;
   background: rgba(244, 0, 0, 0.15);
-  border: 2px solid #000000;
+  border: 2px solid #e75480;
   border-radius: 8px;
   font-weight: 500;
-  color: #000000;
+  color: #444;
   transition: 0.3s;
 }
 
 .speciality li:hover {
-  background: #fff;
-  color: #000000;
+  background: #fde2e4;
+  color: #444;
   transform: translateY(-3px);
 }
 
@@ -280,11 +280,11 @@ ul li a:hover {
   font-size: 1.5rem;
   font-weight: 600;
   margin-top: 1rem;
-  color: #E46E6E;
+  color: #E75480;
 }
 
 .speciality-title span{
-  color: #E46E6E;
+  color: #E75480;
 }
 .speciality image{
     width: 30%;
@@ -327,7 +327,7 @@ ul li a:hover {
 
 .skills-tagline {
   font-size: 15px;
-  color: #f63b3b;
+  color: #444;
 }
 
 .skills-group {
@@ -450,6 +450,14 @@ ul li a:hover {
   transform: translateY(-5px);
 }
 
+.project-title {
+  color: #d6336c;
+}
+
+.project-desc {
+  color: #555;
+}
+
 .project-img {
   width: 35%;
   border-radius: 10px;
@@ -500,7 +508,7 @@ ul li a:hover {
 
 .timeline-desc {
   font-size: 0.95rem;
-  color: #000;
+  color: #555;
   line-height: 1.5;
 }
 
@@ -526,7 +534,7 @@ ul li a:hover {
 
 .contact-info p {
   margin: 0.5rem 0;
-  color: #333;
+  color: #555;
 }
 
 .contact-info a {
