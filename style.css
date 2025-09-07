@@ -138,8 +138,10 @@ ul li a:hover {
   background-color: #ffffff;
   color: #E46E6E;
 }
+
 .hire__me:hover {
   background: #E46E6E;
+  color: #fff;              /* teks jadi putih biar kelihatan */
   transform: translateY(-3px);
 }
 
@@ -148,7 +150,7 @@ ul li a:hover {
 }
 
 .portfolio:hover {
-  background: #660000;
+  background: #E46e6e;
   color: #fff;
   transform: translateY(-3px);
 }
@@ -630,4 +632,15 @@ ul li a:hover {
   .social-links {
     justify-content: center;
   }
+}
+
+ul li a.active {
+  color: #ff4d4d;
+  border-top-color: #ff4d4d;
+  border-bottom-color: #ff4d4d;
+}
+
+/* Smooth scroll untuk semua anchor link */
+html {
+  scroll-behavior: smooth;
 }
