@@ -115,6 +115,7 @@ ul li a:hover {
   line-height: 1.5rem;
   color: #666;
   margin-bottom: 2rem;
+  font-size: 1.3rem;
 }
 
 .action__btns {
@@ -132,17 +133,6 @@ ul li a:hover {
   outline: none;
   cursor: pointer;
   transition: 0.3s;
-}
-
-.hire__me {
-  background-color: #ffffff;
-  color: #E46E6E;
-}
-
-.hire__me:hover {
-  background: #c53d3d;
-  color: #fff;              
-  transform: translateY(-3px);
 }
 
 .download_cv {
@@ -221,7 +211,8 @@ ul li a:hover {
 .about-content p {
   margin-top: 0.5 rem;
   line-height: 1.6;
-  color: #666
+  font-size: 1.5rem;
+  color: #333
 }
 .about h2 {
   font-size: 2rem;
@@ -435,6 +426,11 @@ ul li a:hover {
   width: 35%;
   border-radius: 10px;
   margin-bottom: 1rem;
+}
+
+.projects-grid .project-card:last-child .project-img {
+  margin-top: 20px;
+  padding-top: 20px;
 }
 
 /* EDUCATION */
